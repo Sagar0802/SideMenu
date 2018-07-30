@@ -1,0 +1,64 @@
+.sidenav {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+   background-color: #e9ecef;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5px;
+    width: 175px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #888282e0;
+}
+
+
+
+#main {
+    transition: margin-left 0.1s;
+    padding: 16px;
+    margin-left: 175px;
+}
+
+
+
+#staticmenu{
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+   background-color: #e9ecef;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5px;
+    width: 175px;
+    overflow: scroll;
+    text-align: center;
+}
+#staticmenu li{
+   list-style: none;
+  
+}
+#staticmenu a{
+    padding:8px 8px 8px 32px;
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display:block;
+    transition: 0.3s;
+}
+#staticmenu a:hover {
+    color: #888282e0;
+}
