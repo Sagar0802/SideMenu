@@ -13,9 +13,9 @@ header{
 
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 990px){
     #main{
-        margin-left: 175px;
+        margin-left: 175px !important;
     }
 }
 
